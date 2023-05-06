@@ -14,8 +14,8 @@ Prerequisites:
 
 Before we begin, make sure you have the following software and tools installed:
 - Python 3.7 or 3.8
-- Intel Distribution of Python (optional)
-- Intel OpenVINO Toolkit (optional)
+- Intel Distribution of Python
+- Intel OpenVINO Toolkit
 
 Step 1: Setting up the Project Environment
 
