@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+
+# Generate dummy solution data
+data = pd.DataFrame({
+    'JobTitle': ['Software Developer', 'Data Scientist', 'Business Analyst'],
+    'City': ['Mumbai', 'Bangalore', 'Delhi'],
+    'Salary': [1000000, 800000, 600000],
+    'Sentiment': ['Positive', 'Neutral', 'Negative'],
+    'Product': ['Flat Rental', 'Mutual Funds', 'Insurance']
+})
+
+# Save solution data to CSV file
+data.to_csv('solution_file.csv', index=False)
